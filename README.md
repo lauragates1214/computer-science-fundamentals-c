@@ -85,7 +85,24 @@ Implementation details for my contribution to code:
 </math> // recursion*
 <br><br><br>
 **Problem Set 3a: Plurality**<br>
-*
+*Simulates a plurality vote election*
+<br><br>
+Implementation details for my contribution to code:
+- in vote function, checks for name match in candidate array
+- updates matching candidates' vote tallies
+- prints name of winner
+<br><br><br>
+**Problem Set 3b: Runoff**<br>
+*Simulates a runoff election*
+<br><br>
+Implementation details for my contribution to code: 
+- vote function identifying matching candidate names and compiles rank preferences
+- tabulate function updates votes at each stage in the runoff
+- print_winner function prints candidate with more than half the votes at any stage in the election
+- find_min function returns minimum vote total for any candidate still in the election
+- is_tie function returns true if every remaining candidate has same number of votes, otherwise false
+- eliminate function eliminates candidates with smallest number of votes at any stage in the election
+<br><br>
 
 
 ---

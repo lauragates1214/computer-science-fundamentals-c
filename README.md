@@ -119,7 +119,7 @@ Implementation details for my contribution to code:
 <br><br>
 
 **Problem Set 2a: Readability**<br>
-*Calculates the approximate grade reading level for a text using Coleman-Liau index*
+*Calculates the approximate grade reading level for a text using the Coleman-Liau index*
 <br><br>
 Implementation details (fully written by me, no pre-filled CS50 code):
 - prompts user for a string of text
@@ -130,7 +130,7 @@ Implementation details (fully written by me, no pre-filled CS50 code):
 **Problem Set 2b: Bulbs**<br>
 *Converts user input message from text to binary using emoji art representing lightbulbs in on or off position*
 <br><br>
-Implementation details for my contribution to code:
+Implementation details for my contribution to code (wrote main function):
 - converts text into decimal numbers using ascii
 - converts decimal numbers into equivalent binary numbers
 - creates then reverses binary array to print emoji light/dark lightbulbs.

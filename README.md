@@ -90,8 +90,9 @@ Implementation details for my contribution to code:
 Implementation details for my contribution to code:
 - in vote function, checks for name match in candidate array
 - updates matching candidates' vote tallies
-- prints name of winner
-<br><br><br>
+- prints name of winner.   
+<br>
+
 **Problem Set 3b: Runoff**<br>
 *Simulates a runoff election*
 <br><br>
@@ -101,12 +102,74 @@ Implementation details for my contribution to code:
 - print_winner function prints candidate with more than half the votes at any stage in the election
 - find_min function returns minimum vote total for any candidate still in the election
 - is_tie function returns true if every remaining candidate has same number of votes, otherwise false
-- eliminate function eliminates candidates with smallest number of votes at any stage in the election
+- eliminate function eliminates candidates with smallest number of votes at any stage in the election.
 <br><br>
 
+---
+
+**Topic 2: Arrays**<br>
+*preprocessing // compiling // assembling // linking // debugging // arrays // strings // command-line arguments // cryptography*
+<br><br><br>
+**Lab 2: Scrabble**<br>
+*Determines which of two Scrabble words is worth more*
+<br><br>
+Implementation details for my contribution to code:
+- computes scores for words entered by the user for players 1 and 2
+- prints winning player, or tie.
+<br><br>
+
+**Problem Set 2a: Readability**<br>
+*Calculates the approximate grade reading level for a text using Coleman-Liau index*
+<br><br>
+Implementation details (fully written by me, no pre-filled CS50 code):
+- prompts user for a string of text
+- counts number of letters, words and sentences in the text
+- prints relevant grade reading level.
+<br><br>
+
+**Problem Set 2b: Bulbs**<br>
+*Converts user input message from text to binary using emoji art representing lightbulbs in on or off position*
+<br><br>
+Implementation details for my contribution to code:
+- converts text into decimal numbers using ascii
+- converts decimal numbers into equivalent binary numbers
+- creates then reverses binary array to print emoji light/dark lightbulbs.
+<br><br>
+
+**Problem Set 2c: Caesar**<br>
+*Encrypts messages using Caesar's cipher <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <msub>
+    <mi>c</mi>
+    <mi>i</mi>
+  </msub>
+  <mo>=</mo>
+  <mo stretchy="false">(</mo>
+  <msub>
+    <mi>p</mi>
+    <mi>i</mi>
+  </msub>
+  <mo>+</mo>
+  <mi>k</mi>
+  <mo stretchy="false">)</mo>
+  <mi mathvariant="normal">%</mi>
+  <mn>26</mn>
+</math>*
+<br><br>
+Implementation details (fully written by me, no pre-filled CS50 code):
+- accepts command line argument for cipher key, with input validation and error checking
+- prompts user for string of plaintext, uses key to encrypt it preserving case, prints ciphertext.
+<br><br>
+
+**Problem Set 2d: Substitution**<br>
+*Encrypts messages using a substitution cipher*
+<br><br>
+Implementation details (fully written by me, no pre-filled CS50 code apart from library inclusions and main function parameters):
+- accepts command line argument for cipher key, with input validation and error checking
+- prompts user for string of plaintext, uses key to encrypt it preserving case, prints ciphertext.
+<br><br>
 
 ---
-   
+
 **Topic 1: C**  
 **Lab 1: Population Growth**  
 Calculates number of years required for a population of llamas to grow from a start size to and end size.   

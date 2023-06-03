@@ -1,9 +1,7 @@
 **Labs and Problem Sets for C**<br>
 *from Harvard's CS50 Introduction to Computer Science course - Professional Certificate*
 <br><br>
-This repository contains the labs and problem sets for C that I've completed as part of my professional certificate program through Harvard's CS50: Introduction to Computer Science.
-<br><br>
-https://www.edx.org/course/introduction-computer-science-harvardx-cs50x
+This repository contains the labs and problem sets for C that I've completed as part of my professional certificate program through Harvardx's CS50: Introduction to Computer Science.
 <br><br><br>
 **CS50 overview**<br>
 *Topics include*<br>
@@ -77,6 +75,17 @@ Implementation details for my contribution to code:
 
 ---
 
+**Topic 3: Algorithms**<br>
+*searching: linear search, binary search // sorting: bubble sort, selection sort, merge sort // asymptotic notation: <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>O</mi>
+</math>, <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi mathvariant="normal">&#x3A9;</mi>
+</math>, <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi mathvariant="normal">&#x398;</mi>
+</math> // recursion*
+<br><br><br>
+**Problem Set 3a: Plurality**<br>
+*
 
 
 ---

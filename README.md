@@ -22,7 +22,8 @@ My contribution to the code, where CS50 has included pre-existing code, is comme
 
 **Topic 5: Data Structures**<br>
 *abstract data types // queues, stacks // linked lists // trees, binary search trees // hash tables // tries*
-<br><br><br>
+<br><br>
+
 **Lab 5: Inheritance**<br>
 *Simulates genetic inheritance of blood type.*
 <br><br>
@@ -173,27 +174,13 @@ Implementation details (fully written by me; no pre-filled CS50 code apart from 
 **Topic 1: C**<br>
 *C // source code // machine code // compiler // correctness, design, style // Visual Studio Code // syntax highlighting // escape sequences // header files // libraries // manual pages // types // conditionals // variables // loops // Linux // Graphical User Interface (GUI) // Command-Line Interface (CLI) // constants // comments // pseudocode // operators // integer overflow // floating-point imprecision*
 <br><br>
-All code listed below fully written by me; no pre-filled CS50 code.
-<br>
-
-**Lab 1: Population Growth**  
-*Calculates the number of years required for a population to grow from a start size to an end size, using input validation.*
-<br>
 
 **Problem Set 1: Credit**<br>
-*Prompts the user for a credit card number, then uses Luhn's algorithm to validate the card number as Visa, MasterCard, American Express or invalid.*
-<br>
+*Prompts the user for a credit card number, then uses Luhn's algorithm to validate the card number as Visa, MasterCard, American Express or invalid.*<br>
+Code fully written by me; no pre-filled CS50 code.
+I also wrote Credit in Python (see repository Harvard-CS50-lab-problemsets-Python).
 
-**Problem Set 1: Cash**<br>
-*Prompts the user for the number of cents that a customer is owed and then prints the smallest number of coins with which that change can be made.*
-<br>
 
-**Problem Set 1: Mario More**<br>
-*Prints a full pyramid, with empty column in middle, using # based on user's integer input, with input validation.*
-<br>
-
-**Problem Set 1: Mario Less**  
-*Prints a half pyramid using # based on user's integer input, with input validation.*
 
 
 

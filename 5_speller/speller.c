@@ -1,7 +1,7 @@
 /*
     PROGRAM :  Speller
     AUTHOR  :  Laura Purcell-Gates
-    EMAIl   :  <laurapurcellgates@gmail.com>
+    EMAIL   :  <laurapurcellgates@gmail.com>
 
     CS50x 2023 Problem Set 5 Speller
 

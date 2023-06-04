@@ -1,7 +1,7 @@
 /*
     PROGRAM :  Inheritance
     AUTHOR  :  Laura Purcell-Gates
-    EMAIl   :  <laurapurcellgates@gmail.com>
+    EMAIL   :  <laurapurcellgates@gmail.com>
 
     CS50x 2023 Lab 5 Inheritance
 

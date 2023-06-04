@@ -1,7 +1,7 @@
 /*
     PROGRAM :  Plurality
     AUTHOR  :  Laura Purcell-Gates
-    EMAIl   :  <laurapurcellgates@gmail.com>
+    EMAIL   :  <laurapurcellgates@gmail.com>
 
     CS50x 2023 Problem Set 3 Plurality
 

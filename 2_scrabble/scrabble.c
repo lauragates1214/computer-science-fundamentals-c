@@ -7,10 +7,11 @@
 
     Scrabble is a program that determines which of two Scrabble words is worth more.
 
-    My contributions to the code commented as LauraPG (wrote compute_score function).
+    My contributions to the code commented as LauraPG (wrote compute_score function starting at line 51).
 
     Link to the lab:
     https://cs50.harvard.edu/x/2023/labs/2/  */
+
 
 #include <ctype.h>
 #include <cs50.h>

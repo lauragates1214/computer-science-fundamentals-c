@@ -7,7 +7,8 @@
 
     Runoff is a program that simulates a runoff election.
 
-    My contributions to the code commented as LauraPG (start at line 142).
+    My contributions to the code commented as LauraPG (vote, tabulate, print_winner,
+    find_min, is_tie and eliminate functions, starting at line 143).
 
     Link to the problem set:
     https://cs50.harvard.edu/x/2023/psets/3/runoff  */
@@ -139,7 +140,7 @@ int main(int argc, string argv[])
     return 0;
 }
 
-// Record preference if vote is valid
+// LauraPG: Record preference if vote is valid
 bool vote(int voter, int rank, string name)
 {
     // LauraPG: loop through candidate array
@@ -156,7 +157,7 @@ bool vote(int voter, int rank, string name)
     return false;
 }
 
-// Tabulate votes for non-eliminated candidates
+// LauraPG: Tabulate votes for non-eliminated candidates
 void tabulate(void)
 {
     // LauraPG: loop through voters array
@@ -177,7 +178,7 @@ void tabulate(void)
     return;
 }
 
-// Print the winner of the election, if there is one
+// LauraPG: Print the winner of the election, if there is one
 bool print_winner(void)
 {
     // LauraPG: loop through candidate array
@@ -194,7 +195,7 @@ bool print_winner(void)
     return false;
 }
 
-// Return the minimum number of votes any remaining candidate has
+// LauraPG: Return the minimum number of votes any remaining candidate has
 int find_min(void)
 {
     // LauraPG: create variable to store current min vote tally
@@ -217,7 +218,7 @@ int find_min(void)
     return min_votes;
 }
 
-// Return true if the election is tied between all candidates, false otherwise
+// LauraPG: Return true if the election is tied between all candidates, false otherwise
 bool is_tie(int min)
 {
     // LauraPG: create variables to store non-eliminated candidates and candidates who have min votes (to compare)
@@ -247,7 +248,7 @@ bool is_tie(int min)
     return false;
 }
 
-// Eliminate the candidate (or candidates) in last place
+// LauraPG: Eliminate the candidate (or candidates) in last place
 void eliminate(int min)
 {
     // LauraPG: loop through candidates array

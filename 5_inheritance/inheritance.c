@@ -7,7 +7,8 @@
 
     Inheritance is a program that simulates genetic inheritance of blood type.
 
-    My contributions to the code commented as LauraPG (create_family and free_family functions).
+    My contributions to the code commented as LauraPG (create_family and free_family functions,
+    starting at line 53).
 
     Link to the lab:
     https://cs50.harvard.edu/x/2023/labs/5/  */
@@ -49,7 +50,7 @@ int main(void)
     free_family(p);
 }
 
-// Create a new individual with `generations`
+// LauraPG: Create a new individual with `generations`
 person *create_family(int generations)
 {
     // LauraPG: Allocate memory for new person
@@ -67,7 +68,7 @@ person *create_family(int generations)
         p->alleles[1] = p->parents[1]->alleles[rand() % 2];
     }
 
-    // If there are no generations left to create (base case)
+    // LauraPG: If there are no generations left to create (base case)
     else
     {
         // LauraPG: Set parent pointers to NULL
@@ -83,7 +84,7 @@ person *create_family(int generations)
     return p;
 }
 
-// Free `p` and all ancestors of `p`.
+// LauraPG: Free `p` and all ancestors of `p`.
 void free_family(person *p)
 {
     // LauraPG: Handle base case

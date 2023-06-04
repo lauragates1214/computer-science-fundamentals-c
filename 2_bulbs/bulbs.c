@@ -12,6 +12,7 @@
 
     Link to the problem set:
     https://cs50.harvard.edu/x/2023/psets/2/bulbs  */
+    
 
 #include <cs50.h>
 #include <stdio.h>

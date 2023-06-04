@@ -1,17 +1,18 @@
 /*
     PROGRAM :  Plurality
     AUTHOR  :  Laura Purcell-Gates
-    EMAIL   :  <laurapurcellgates@gmail.com>
+    EMAIlL  :  <laurapurcellgates@gmail.com>
 
     CS50x 2023 Problem Set 3 Plurality
 
     Plurality is a program that simulates a plurality vote election.
 
-    My contributions to the code commented as LauraPG (vote and print_winner functions).
+    My contributions to the code commented as LauraPG (vote and print_winner functions
+    starting at line 83).
 
     Link to the problem set:
     https://cs50.harvard.edu/x/2023/psets/3/plurality */
-    
+
 
 #include <cs50.h>
 #include <stdio.h>
@@ -79,7 +80,7 @@ int main(int argc, string argv[])
     print_winner();
 }
 
-// Update vote totals given a new vote
+// LauraPG: Update vote totals given a new vote
 bool vote(string name)
 {
     // LauraPG: check for name match within array
@@ -97,7 +98,7 @@ bool vote(string name)
     return false;
 }
 
-// Print the winner (or winners) of the election
+// LauraPG: Print the winner (or winners) of the election
 void print_winner(void)
 {
     // LauraPG: check highest number of votes using bubble search and return - use max_value function from practice problem

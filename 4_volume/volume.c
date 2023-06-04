@@ -7,7 +7,7 @@
 
     Volume is a program that modifies the volume of an audio file.
 
-    My contributions to the code commented as LauraPG (start at line 50).
+    My contributions to the code commented as LauraPG (start at line 49).
 
     Link to the lab:
     https://cs50.harvard.edu/x/2023/labs/4/  */

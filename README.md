@@ -56,17 +56,17 @@ Implementation details for my contribution to code:
 - multiplies each sample by the factor and write the new sample to output file.<br><br>   
    
 
-**Problem Set 4a: Filter**<br>
+**Problem Set 4: Filter**<br>
 *Allows user to apply grayscale, sepia, reflection, or blur filters to their images.*
 <br><br>
-Implementation details for my contribution to code (helpers.c):
+Implementation details for my contribution to code (wrote all functions in helpers.c):
 - wrote functions to allow users to apply the above filters to an existing image.<br><br>  
 
 
-**Problem Set 4b: Recover**<br>
+**Problem Set 4: Recover**<br>
 *Iterates over a forensic image of a memory card, looking for JPEG signatures and recovering the images*
 <br><br>
-Implementation details for my contribution to code:
+Implementation details (code fully written by me; no pre-filled CS50 code apart from library inclusions and main function parameters):
 - accepts one command-line argument, the name of the forensic image of memory card from which to recover JPEGs, with input validation checks and error handling
 - iterates over the image looking for JPEG signatures
 - recovers the images, generating JPEG files
@@ -84,7 +84,7 @@ Implementation details for my contribution to code:
   <mi mathvariant="normal">&#x398;</mi>
 </math> // recursion*
 <br><br><br>
-**Problem Set 3a: Plurality**<br>
+**Problem Set 3: Plurality**<br>
 *Simulates a plurality vote election*
 <br><br>
 Implementation details for my contribution to code:
@@ -93,7 +93,7 @@ Implementation details for my contribution to code:
 - prints name of winner.   
 <br>
 
-**Problem Set 3b: Runoff**<br>
+**Problem Set 3: Runoff**<br>
 *Simulates a runoff election*
 <br><br>
 Implementation details for my contribution to code: 
@@ -118,16 +118,16 @@ Implementation details for my contribution to code:
 - prints winning player, or tie.
 <br><br>
 
-**Problem Set 2a: Readability**<br>
+**Problem Set 2: Readability**<br>
 *Calculates the approximate grade reading level for a text using the Coleman-Liau index*
 <br><br>
-Implementation details (fully written by me, no pre-filled CS50 code):
+Implementation details (fully written by me; no pre-filled CS50 code):
 - prompts user for a string of text
 - counts number of letters, words and sentences in the text
 - prints relevant grade reading level.
 <br><br>
 
-**Problem Set 2b: Bulbs**<br>
+**Problem Set 2: Bulbs**<br>
 *Converts user input message from text to binary using emoji art representing lightbulbs in on or off position*
 <br><br>
 Implementation details for my contribution to code (wrote main function):
@@ -136,7 +136,7 @@ Implementation details for my contribution to code (wrote main function):
 - creates then reverses binary array to print emoji light/dark lightbulbs.
 <br><br>
 
-**Problem Set 2c: Caesar**<br>
+**Problem Set 2: Caesar**<br>
 *Encrypts messages using Caesar's cipher <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <msub>
     <mi>c</mi>
@@ -155,35 +155,45 @@ Implementation details for my contribution to code (wrote main function):
   <mn>26</mn>
 </math>*
 <br><br>
-Implementation details (fully written by me, no pre-filled CS50 code):
+Implementation details (fully written by me; no pre-filled CS50 code):
 - accepts command line argument for cipher key, with input validation and error checking
 - prompts user for string of plaintext, uses key to encrypt it preserving case, prints ciphertext.
 <br><br>
 
-**Problem Set 2d: Substitution**<br>
+**Problem Set 2: Substitution**<br>
 *Encrypts messages using a substitution cipher*
 <br><br>
-Implementation details (fully written by me, no pre-filled CS50 code apart from library inclusions and main function parameters):
+Implementation details (fully written by me; no pre-filled CS50 code apart from library inclusions and main function parameters):
 - accepts command line argument for cipher key, with input validation and error checking
 - prompts user for string of plaintext, uses key to encrypt it preserving case, prints ciphertext.
 <br><br>
 
 ---
 
-**Topic 1: C**  
+**Topic 1: C**<br>
+*C // source code // machine code // compiler // correctness, design, style // Visual Studio Code // syntax highlighting // escape sequences // header files // libraries // manual pages // types // conditionals // variables // loops // Linux // Graphical User Interface (GUI) // Command-Line Interface (CLI) // constants // comments // pseudocode // operators // integer overflow // floating-point imprecision*
+<br><br>
+All code listed below fully written by me; no pre-filled CS50 code.
+<br>
+
 **Lab 1: Population Growth**  
-Calculates number of years required for a population of llamas to grow from a start size to and end size.   
-Specs:   
-- Prompts user for a starting and an ending population size, with input validation
-- Calculates and prints the number of years required for the population to reach that size
+*Calculates the number of years required for a population to grow from a start size to an end size, using input validation.*
+<br>
 
-**Problem Set 1**   
-*Mario less*  
-Prints a half pyramid using # based on user's integer input, with input validation.
-   
-*Mario more*  
-Prints a full pyramid, with empty column in middle, using # based on user's integer input, with input validation.
+**Problem Set 1: Credit**<br>
+*Prompts the user for a credit card number, then uses Luhn's algorithm to validate the card number as Visa, MasterCard, American Express or invalid.*
+<br>
 
-*
+**Problem Set 1: Cash**<br>
+*Prompts the user for the number of cents that a customer is owed and then prints the smallest number of coins with which that change can be made.*
+<br>
+
+**Problem Set 1: Mario More**<br>
+*Prints a full pyramid, with empty column in middle, using # based on user's integer input, with input validation.*
+<br>
+
+**Problem Set 1: Mario Less**  
+*Prints a half pyramid using # based on user's integer input, with input validation.*
+
 
 

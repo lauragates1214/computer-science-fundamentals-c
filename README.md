@@ -1,7 +1,7 @@
 **Labs and Problem Sets for C**<br>
 *from Harvard's CS50 Introduction to Computer Science course - Professional Certificate*
 <br><br>
-This repository contains the labs and problem sets for C that I've completed as part of my professional certificate program through Harvardx's CS50: Introduction to Computer Science.
+This repository contains the labs and a selection of problem sets for C that I've completed as part of my professional certificate program through Harvardx's CS50: Introduction to Computer Science.
 <br><br><br>
 **CS50 overview**<br>
 *Topics include*<br>

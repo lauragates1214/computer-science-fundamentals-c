@@ -20,7 +20,7 @@ My contribution to the code, where CS50 has included pre-existing code, is comme
 
 ---
 
-**Topic 5: Data Structures**<br>
+***TOPIC 5: DATA STRUCTURES***<br>
 *abstract data types // queues, stacks // linked lists // trees, binary search trees // hash tables // tries*
 <br><br>
 
@@ -45,24 +45,14 @@ Implementation details for my contribution to code (dictionary.c):
 ---
 
 
-**Topic 4: Memory**<br>
+***TOPIC 4: MEMORY***<br>
 *pointers // segmentation faults // dynamic memory allocation // stack, heap // buffer overflow // file I/O // images*
 <br><br><br>
-**Lab 4: Volume**<br>
-*Modifies the volume of an audio file, where INPUT.wav is the name of an original audio file and OUTPUT.wav is the name of an audio file with a volume that has been scaled by the given factor (e.g., 2.0).*
-<br><br>
-Implementation details for my contribution to code:   
-- reads header from input file and writes that header to output file
-- reads rest of data from WAV file, one 16-bit (2-byte) sample at a time
-- multiplies each sample by the factor and write the new sample to output file.<br><br>   
-   
-
 **Problem Set 4: Filter**<br>
 *Allows user to apply grayscale, sepia, reflection, or blur filters to their images.*
 <br><br>
 Implementation details for my contribution to code (wrote all functions in helpers.c):
 - wrote functions to allow users to apply the above filters to an existing image.<br><br>  
-
 
 **Problem Set 4: Recover**<br>
 *Iterates over a forensic image of a memory card, looking for JPEG signatures and recovering the images*
@@ -72,11 +62,19 @@ Implementation details (code fully written by me; no pre-filled CS50 code apart 
 - iterates over the image looking for JPEG signatures
 - recovers the images, generating JPEG files
 - uses malloc to dynamically allocate memory for output filenames, then frees memory allocation.
-<br><br>   
+<br><br>
+
+**Lab 4: Volume**<br>
+*Modifies the volume of an audio file, where INPUT.wav is the name of an original audio file and OUTPUT.wav is the name of an audio file with a volume that has been scaled by the given factor (e.g., 2.0).*
+<br><br>
+Implementation details for my contribution to code:   
+- reads header from input file and writes that header to output file
+- reads rest of data from WAV file, one 16-bit (2-byte) sample at a time
+- multiplies each sample by the factor and write the new sample to output file.<br><br>   
 
 ---
 
-**Topic 3: Algorithms**<br>
+***TOPIC 3: ALGORITHMS***<br>
 *searching: linear search, binary search // sorting: bubble sort, selection sort, merge sort // asymptotic notation: <math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>O</mi>
 </math>, <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -108,26 +106,9 @@ Implementation details for my contribution to code:
 
 ---
 
-**Topic 2: Arrays**<br>
+***TOPIC 2: ARRAYS***<br>
 *preprocessing // compiling // assembling // linking // debugging // arrays // strings // command-line arguments // cryptography*
 <br><br><br>
-**Lab 2: Scrabble**<br>
-*Determines which of two Scrabble words is worth more*
-<br><br>
-Implementation details for my contribution to code:
-- computes scores for words entered by the user for players 1 and 2
-- prints winning player, or tie.
-<br><br>
-
-**Problem Set 2: Readability**<br>
-*Calculates the approximate grade reading level for a text using the Coleman-Liau index*
-<br><br>
-Implementation details (fully written by me; no pre-filled CS50 code):
-- prompts user for a string of text
-- counts number of letters, words and sentences in the text
-- prints relevant grade reading level.
-<br><br>
-
 **Problem Set 2: Bulbs**<br>
 *Converts user input message from text to binary using emoji art representing lightbulbs in on or off position*
 <br><br>
@@ -161,6 +142,15 @@ Implementation details (fully written by me; no pre-filled CS50 code):
 - prompts user for string of plaintext, uses key to encrypt it preserving case, prints ciphertext.
 <br><br>
 
+**Problem Set 2: Readability**<br>
+*Calculates the approximate grade reading level for a text using the Coleman-Liau index*
+<br><br>
+Implementation details (fully written by me; no pre-filled CS50 code):
+- prompts user for a string of text
+- counts number of letters, words and sentences in the text
+- prints relevant grade reading level.
+<br><br>
+
 **Problem Set 2: Substitution**<br>
 *Encrypts messages using a substitution cipher*
 <br><br>
@@ -171,7 +161,7 @@ Implementation details (fully written by me; no pre-filled CS50 code apart from 
 
 ---
 
-**Topic 1: C**<br>
+***TOPIC 1: C***<br>
 *C // source code // machine code // compiler // correctness, design, style // Visual Studio Code // syntax highlighting // escape sequences // header files // libraries // manual pages // types // conditionals // variables // loops // Linux // Graphical User Interface (GUI) // Command-Line Interface (CLI) // constants // comments // pseudocode // operators // integer overflow // floating-point imprecision*
 <br><br>
 

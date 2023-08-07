@@ -9,8 +9,8 @@
     then uses Luhn's algorithm to validate the card number as Visa, MasterCard,
     American Express or invalid.
 
-    I also wrote it in Python as part of CS50x Problem Set 6
-    (see repository for Python labs and problem sets from Harvard CS50).
+    I also wrote Credit in Python (see repository for Python labs and problem sets 
+    from Harvard CS50).
 
     Code fully written by me; no pre-filled CS50 code.
 

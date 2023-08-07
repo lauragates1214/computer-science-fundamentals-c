@@ -9,7 +9,7 @@
     reading level for a text using the Coleman-Liau index.
 
     I also wrote it in Python as part of CS50x Problem Set 6
-    (see Harvard-CS50-labs-problemsets-Python repository).
+    (see repository for Python labs and problem sets from Harvard CS50).
 
     Code fully written by me; no pre-filled CS50 code.
 

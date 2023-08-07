@@ -150,6 +150,7 @@ Implementation details (fully written by me; no pre-filled CS50 code):
 - counts number of letters, words and sentences in the text
 - prints relevant grade reading level.
 <br><br>
+I also wrote Readability in Python (see repository for Python labs and problem sets from Harvard CS50).
 
 **Problem Set 2: Substitution**<br>
 *Encrypts messages using a substitution cipher*
@@ -168,7 +169,7 @@ Implementation details (fully written by me; no pre-filled CS50 code apart from 
 **Problem Set 1: Credit**<br>
 *Prompts the user for a credit card number, then uses Luhn's algorithm to validate the card number as Visa, MasterCard, American Express or invalid.*<br>
 Code fully written by me; no pre-filled CS50 code.
-I also wrote Credit in Python (see repository Harvard-CS50-lab-problemsets-Python).
+I also wrote Credit in Python (see repository for Python labs and problem sets from Harvard CS50).
 
 
 

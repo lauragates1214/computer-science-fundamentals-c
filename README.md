@@ -1,4 +1,4 @@
-# Computer Science in C
+# Computer Science Fundamentals in C
 
 C programming implementations demonstrating core computer science concepts including data structures, algorithms, and memory management. Completed through Harvard's Professional Certificate in Computer Science for Python Programming.
 

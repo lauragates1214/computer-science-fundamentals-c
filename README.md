@@ -1,6 +1,6 @@
 # Computer Science in C
 
-C programming solutions demonstrating core computer science concepts including data structures, algorithms, and memory management. Completed through Harvard's Professional Certificate in Computer Science for Python Programming.
+C programming implementations demonstrating core computer science concepts including data structures, algorithms, and memory management. Completed through Harvard's Professional Certificate in Computer Science for Python Programming.
 
 ## Major Projects
 
